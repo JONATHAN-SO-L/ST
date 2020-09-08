@@ -119,8 +119,3 @@ select {
     font-style: bold;   /* Estilo de la letra (Negritas) */
     font-size: 15px;    /* Tamaño de la letra */
 }
-
-/* Diseño del aviso de que ya exite un plan de estudio en la base de datos */
-#aviso {
-  
-}
