@@ -1,0 +1,19 @@
+/* Diseño de la tabla de la lectura de la biblia */
+
+/* Diseño del subtítulo */
+h2 {
+	color: white;	/* Color del texto en blanco */
+}
+
+/* Diseño de la tabla*/
+#dash_lb {
+	display: block;	/* Contenido bloqueado en una ubicación específica */
+	height: 420px;	/* Altura de la tabla */
+    width: 1000px;	/* Ancho de la tabla */
+    overflow-x: auto;	/* Desplazamiento automático sobre la tabla */
+}
+
+/* Diseño de las filas de la tabla*/
+td {
+	margin: 2px 10px;	/* Margen de las filas de las tablas */
+}

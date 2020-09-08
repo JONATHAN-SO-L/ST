@@ -1,0 +1,88 @@
+/* Diseño de la aplicación */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño del cuerpo de la aplicación */
+body {
+	background-color: #868F98; /* Color de fondo del cuerpo de la aplicación */
+    background-size: cover; /* Acción del fondo */
+    background-attachment: fixed;   /* Distribución del fondo */
+}
+
+/* Diseño de los botones de la página de inicio */
+/* CLASE */
+.botones {
+    margin-top: 50px;   /* Alineación de los botones desde la parte superior */
+}
+
+/* Diseño de los enlaces */
+a {
+	color: white;  /* Color del texto de los enlaces */
+}
+
+/* Diseño de la acción del puntero sobre los enlaces */
+a:hover {
+	color: white;  /* Color del texto de los enlaces cuando el puntero está sobre el mismo */
+}
+
+/* ID */
+#ep {
+    background-image: url( '/st/img/ep.png' );  /* Imagen de fondo */
+    height: 40px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 10px; /* Margen derecho*/
+}
+
+#lb {
+    background-image: url( '/st/img/lb.png' );
+    height: 35px;  
+    width: 35px;
+    margin-right: 10px;
+}
+
+#ml {
+    background-image: url( '/st/img/ep.png' );
+    height: 40px;  
+    width: 40px;
+    margin-right: 10px;
+}
+
+#im {
+    background-image: url( '/st/img/im.png' );
+    height: 40px;  
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* Diseño del pie de página */
+.pie1 {
+    background-color: #3E2A75;  /* Color del fondo */
+    margin-top: 50px;   /* Margen del fondo */
+}
+
+#jw {
+    height: 40px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 5px;  /* Margen derercho */
+}
+
+#apps {
+    height: 50px;  
+    width: 50px;
+    margin-right: 5px;
+}
+
+#wol {
+    height: 40px;  
+    width: 40px;
+    margin-right: 5px;
+}
+
+#foot{
+    color: white;   /* Color del texto */
+    font-style: bold;   /* Estilo de la letra (Negritas) */
+    font-size: 15px;    /* Tamaño de la letra */
+}

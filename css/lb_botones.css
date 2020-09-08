@@ -1,0 +1,22 @@
+/* Diseño de los botones del apartado "LECTURA DIARIA DE LA BIBLIA" */
+.pie4 {
+    background-color: #3E2A75;  /* Color del fondo */
+}
+
+#jw {
+    height: 40px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 5px;  /* Margen derercho */
+}
+
+#wol {
+    height: 40px;  
+    width: 40px;
+    margin-right: 5px;
+}
+
+#foot{
+    color: white;   /* Color del texto */
+    font-style: bold;   /* Estilo de la letra (Negritas) */
+    font-size: 15px;    /* Tamaño de la letra */
+}

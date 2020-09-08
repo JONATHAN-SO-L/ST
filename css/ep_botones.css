@@ -1,0 +1,126 @@
+/* Diseño del apartado de Estudio Personal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño del botón "modificar" */
+#modificar {
+	color: white; /* Color del texto */
+}
+
+/* Diseño del botón "reiniciar" */
+#ren {
+    background-image: url( '/st/img/reiniciar.png' );  /* Imagen de fondo */
+    height: 30px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 10px; /* Margen derecho*/
+}
+
+/* Diseño de la modal "INICIAR PLAN DE ESTUDIO" */
+#miModal:target{  /* Tipo de modal */
+  opacity:1;  /* Opacidad del fondo */
+  pointer-events:auto;  /* Acción del puntero dentro de la modal */
+}
+
+/* Diseño de la modal "MODIFICAR PLAN DE ESTUDIO" */
+#miModal2:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+/* Diseño de la modal "REINICIAR PLAN DE ESTUDIO" */
+#miModal3:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+/* Diseño del contenido de la modal */
+.contenedor-modal {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* Diseño del botón de acción de la modal */
+.contenedor-modal button {
+  position: relative;
+  top: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Diseño de la lista de opciones */
+select {
+     background: url('https://cdn0.iconfinder.com/data/icons/ui-components/20/20P-UI-go-03-512.png'); /* Imagen de fondo */
+     border-color: #17C3E9; /* Color del borde */
+     font-size: 15px; /* Tamaño de la letra */
+     height: 40px;  /* Altura de la lista de opciones*/
+     padding: 5px;  /* Espacio entre contenidos */
+     width: 200px;  /* Ancho de la lista de opciones */
+  }
+
+/* Diseño general de todos los contenedores */
+.container{
+	width: 90%;  /* Ancho del contenedor */
+	border-radius: 3px;  /* Borde redondeado */
+}
+
+/* Diseño de todos los formularios de Estudio Personal */
+#form_ep {
+	display: block;  /* Contenido bloqueado a una ubicación específica */
+	font-size: 16px; /* Tamaño de la letra */
+}
+
+/* Diseño del ícono de todos los fomularios de Estudio Personal */
+#ep-index {
+	border: 2px; /* Borde del contenido */
+	padding: 10px; /* Espacio entre contenidos */
+  background: LightGreen; /* Fondo */
+  background-clip: padding-box; /* Fondo autoajustable */
+	height: 100px;  /* Alto del fondo */
+  width: 100px; /* Ancho del fondo */
+  margin-right: 10px; /* Margen derecho */
+}
+
+/* Diseño de la alerta de la modal "REINICIAR" */
+#alerta {
+  border: 2px;  /* Borde del contenido */
+  padding: 10px;  /* Espacio entre contenidos */
+  background-clip: padding-box; /* Fondo ajustable */
+  height: 100px;  /* Alto del fondo */
+  width: 100px; /* Ancho del fondo */
+  margin-right: 10px; /* Margen derecho */
+}
+
+/* Diseño del pie de página */
+.pie2 {
+    background-color: #3E2A75;  /* Color del fondo */
+}
+
+/* Diseño de la imagen de redireccionamiento a jw.org */
+#jw {
+    height: 40px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 5px;  /* Margen derercho */
+}
+
+/* Diseño de la imagen de redireccionamiento a wol.jw.org */
+#wol {
+    height: 40px;  
+    width: 40px;
+    margin-right: 5px;
+}
+
+/* Diseño del texto del pie de ṕágina */
+#foot{
+    color: white;   /* Color del texto */
+    font-style: bold;   /* Estilo de la letra (Negritas) */
+    font-size: 15px;    /* Tamaño de la letra */
+}
+
+/* Diseño del aviso de que ya exite un plan de estudio en la base de datos */
+#aviso {
+  
+}

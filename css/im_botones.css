@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#modificar {
+  color: white;
+}
+
+#ren {
+    background-image: url( '/st/img/reiniciar.png' );  /* Imagen de fondo */
+    height: 30px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 10px; /* Margen derecho*/
+}
+
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#miModal2:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#miModal3:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+.contenedor-modal {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.contenedor-modal button {
+  position: relative;
+  top: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container{
+  width: 90%;
+  border-radius: 3px;
+}
+
+#form_ep {
+  display: block;
+  font-size: 16px;
+}
+
+#ep-index {
+  border: 2px;
+  padding: 10px;
+    background: LightGreen;
+    background-clip: padding-box;
+  height: 100px;  
+    width: 100px;
+    margin-right: 10px;
+}
+
+#alerta {
+  border: 2px;
+  padding: 10px;
+  background-clip: padding-box;
+  height: 100px;  
+  width: 100px;
+  margin-right: 10px;
+}
+
+#mes {
+    background-image: url( '/st/img/im.png' );  /* Imagen de fondo */
+    height: 40px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 10px; /* Margen derecho*/
+}
+
+/* Diseño de los botones de acceso a los meses */
+
+/* Primer Trimestre */
+.botones-t1 {
+	background-color: #EAF2E3; /* Color de fondo */
+}
+
+/* Segundo Trimestre */
+.botones-t2 {
+	background-color: #66D7D1; /* Color de fondo */
+}
+
+/* Tercer Trimestre */
+.botones-t3 {
+	background-color: #F4F1BB; /* Color de fondo */
+}
+
+/* Cuarto Trimestre */
+.botones-t4 {
+	background-color: #FF637D; /* Color de fondo*/
+	color: white;  /* Color del texto */
+}
+
+/* Diseño de la imagen del botón "ACTIVIDAD" */
+#actividad {
+    height: 40px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 10px; /* Margen derecho*/
+}
+
+/* Diseño de la imagen del botón "GRÁFICA" */
+#grafica {
+	height: 40px;   /* Alto de la imagen */
+    width: 40px;    /* Ancho de la imagen */
+    margin-right: 10px; /* Margen derecho*/
+}
+
+/* Diseño del pie de página */
+.pie3 {
+    background-color: #3E2A75;  /* Color del fondo */
+}
+
+/* Diseño de la imagen de redireccionamiento al sitio apps.jw.rog */
+#apps {
+    height: 40px;  
+    width: 40px;
+    margin-right: 5px;
+}
+
+/* Diseño del texto del pie de página */
+#foot{
+    color: white;   /* Color del texto */
+    font-style: bold;   /* Estilo de la letra (Negritas) */
+    font-size: 15px;    /* Tamaño de la letra */
+}
+
+/* Diseño general de todos los informes */
+#informe {
+  background-color: white;  /* Color de fondo */
+  display: block; /* Contenido bloqueado en una ubicación específica */
+}
+
+/* Diseño del apartado de comentarios del informe */
+#comentarios {
+  font-size: 20px;  /* Tamaño de la letra */
+}
+
+/* Diseño del aviso de que ya existe el informe registrado en la base de datos */
+#aviso {
+  
+}
