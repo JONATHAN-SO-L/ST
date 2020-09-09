@@ -68,8 +68,8 @@
 <!-- Texto de derechos de autor -->
 	<div class="container" align="center">
 		<p id="foot">All rights reserved. Copyrights by Jonathán Sánchez ©</p>	<!-- Etiqueta de comentario -->
-		<p id="foot">Versión 1.0 ©</p>
-		<p id="foot">Last release 2020 ©</p>
+		<p id="foot">Versión 1.0.0</p>
+		<p id="foot">Last release 2020</p>
 	</div>
 </footer>
 
