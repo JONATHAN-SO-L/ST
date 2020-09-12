@@ -109,6 +109,19 @@
     margin-right: 10px; /* Margen derecho*/
 }
 
+/* Botón ir arriba*/
+.ir-arriba {
+  display:none;
+  padding:15px;
+  background:purple;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
+
 /* Diseño de la imagen del botón "GRÁFICA" */
 #grafica {
 	height: 40px;   /* Alto de la imagen */

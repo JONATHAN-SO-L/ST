@@ -11,6 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="/st/css/index.css">
   <link rel="stylesheet" type="text/css" href="/st/css/im_botones.css">
+  <script src="/st/funciones/subir.js"></script>
 </head>
 
 <body>
@@ -45,7 +46,7 @@
 // Se abre contenido
     echo "
     <div class='container'><br>
-    <h2><center><strong>INFORME ANUAL</strong></center</h2><br><br>"; // Título
+    <h2><center><strong>INFORME ANUAL</strong></center</h2><br>"; // Título
 
 // Se consulta todo lo que esté registrado en la tabla del mes correspondiente
   $actividad_enero = mysqli_query($conexion,"SELECT * FROM enero");
@@ -578,6 +579,8 @@
       </div>
 
 <br>
+
+<span class="ir-arriba"><strong>^</strong></span>
 
 <footer class="pie3">
   <div class="container" align="center">

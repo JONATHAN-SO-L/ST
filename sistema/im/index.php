@@ -11,6 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="/st/css/index.css">
   <link rel="stylesheet" type="text/css" href="/st/css/im_botones.css">
+  <script src="/st/funciones/subir.js"></script>
 </head>
 
 <body>
@@ -114,6 +115,8 @@
 </div>
 
 <br>
+
+<span class="ir-arriba"><strong>^</strong></span>
 
 <footer class="pie3">
   <div class="container" align="center">
