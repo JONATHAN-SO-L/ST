@@ -56,7 +56,7 @@
 
       echo "<br><br>
                   <div class='container'>          
-                    <table class='table table-dark table-hover' id='dash_ml'>
+                    <table class='table table-dark table-hover table-responsive' id='dash_ml'>
                       <thead>
                       <tr>
                         <th><center><strong>ENERO</strong></center></th>

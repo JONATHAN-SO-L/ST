@@ -9,7 +9,7 @@ h2 {
 #dash_lb {
 	display: block;	/* Contenido bloqueado en una ubicación específica */
 	height: 420px;	/* Altura de la tabla */
-    width: 1000px;	/* Ancho de la tabla */
+    width: auto;	/* Ancho de la tabla */
     overflow-x: auto;	/* Desplazamiento automático sobre la tabla */
 }
 

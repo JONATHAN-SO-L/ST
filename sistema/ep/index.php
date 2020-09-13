@@ -64,7 +64,7 @@ $row=mysqli_fetch_row($resultado);
 // Tabla que muestra lo que está almacenado en la DDBB
     echo "<br><br>
           <div class='container'>          
-            <table class='table table-dark table-hover'>
+            <table class='table table-dark table-hover table-responsive' id='dash_ep'>
               <thead>
               <tr>
                 <th><center><strong>DÍA</strong></center></th>
@@ -218,7 +218,7 @@ include "../../funciones/close.php";
           </div>
 
           <div class="form-group">
-            <input type="submit" class="btn btn-success" id="guardar" name="guardar" value="GUARDAR NUEVO PLAN DE ESTUDIO">
+            <input type="submit" class="btn btn-success" id="guardar" name="guardar" value="GUARDAR">
           </div><br>
 
         </div>
@@ -316,7 +316,7 @@ include "../../funciones/close.php";
           </div>
 
           <div class="form-group">
-            <input type="submit" class="btn btn-success" id="guardar" name="guardar" value="GUARDAR MODIFICACIONES">
+            <input type="submit" class="btn btn-success" id="guardar" name="guardar" value="GUARDAR CAMBIOS">
           </div><br>
 
         </div>

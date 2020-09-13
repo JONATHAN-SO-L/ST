@@ -11,10 +11,8 @@
 
 /* Diseño de la tabla que muestra la meta de libros ya registrada */
 #dash_ml {
-  display: block;
-  height: 230px;
-  width: 1100px;
-  overflow-x: auto;
+  height: auto;  /* Altura de la tabla */
+  width: auto;
 }
 
 td {

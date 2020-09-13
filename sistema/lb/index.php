@@ -40,7 +40,7 @@
     <h2 class="titulo-lb"><center><strong>LECTURA DIARIA DE LA BÍBLIA</strong></center></h2><br>
 
     <!-- Tabla con el calendario de la lectura de la biblia -->
-    <div class='container table-responsive' id="dash_lb">
+    <div class='container' id="dash_lb">
       <table class='table table-dark table-hover'>
         <thead>
           <tr>

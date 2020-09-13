@@ -94,6 +94,11 @@ select {
   margin-right: 10px; /* Margen derecho */
 }
 
+#dash_ep {
+  height: auto;  /* Altura de la tabla */
+  width: auto;;  /* Ancho de la tabla */
+}
+
 /* Diseño del pie de página */
 .pie2 {
     background-color: #3E2A75;  /* Color del fondo */
