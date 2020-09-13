@@ -1,4 +1,4 @@
-Versión: 0.1.2
+Versión: 0.2.0
 Clasificación: Beta
 Estado: En desarrollo
-Fecha de última actualización: 12-09-2020
+Fecha de última actualización: 13-09-2020
