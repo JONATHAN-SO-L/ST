@@ -64,7 +64,7 @@ $row=mysqli_fetch_row($resultado);
 // Tabla que muestra lo que está almacenado en la DDBB
     echo "<br><br>
           <div class='container'>          
-            <table class='table table-dark table-hover table-responsive' id='dash_ep'>
+            <table class='table table-dark table-hover id='dash_ep'>
               <thead>
               <tr>
                 <th><center><strong>DÍA</strong></center></th>
