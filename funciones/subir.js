@@ -1,3 +1,4 @@
+// Archivo que permite crear un botón para subir a la parte superior de la página
 $(document).ready(function(){
  
   $('.ir-arriba').click(function(){
