@@ -534,7 +534,7 @@
 
 <footer class="pie4">
   <div class="container" align="center">
-    <a style="margin: 20px" href="https://jw.org" target="_blank"><img id="jw" src="https://movilsagt.com/jw/files/2016/01/JW-NUEVO.jpg">SITIO OFICIAL DE LOS TESTIGOS DE JEHOVÁ</a>
+    <a style="margin: 20px" href="https://jw.org/ed" target="_blank"><img id="jw" src="https://movilsagt.com/jw/files/2016/01/JW-NUEVO.jpg">SITIO OFICIAL DE LOS TESTIGOS DE JEHOVÁ</a>
     <a style="margin: 20px" href="https://wol.jw.org/es/wol/publication/r4/lp-s/nwt" target="_blank"><img id="wol" src="https://pbs.twimg.com/media/EFglz6RWoAAmj_P.jpg">BIBLIOTECA EN LÍNEA</a>
   </div>
 
