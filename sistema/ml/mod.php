@@ -22,6 +22,8 @@
       // Se insertan nuevos datos a la DDBB
       $conexion->query("UPDATE $table2 SET libro1='$book1', libro2='$book2', libro3='$book3', libro4='$book4', libro5='$book5', libro6='$book6', libro7='$book7', libro8='$book8', libro9='$book9', libro10='$book10', libro11='$book11', libro12='$book12'");
 
+    echo "<script>alert('META DE LIBROS MODIFICADA CORRECTAMENTE')</script>";
+
       }
 
       include "../../funciones/close.php";  // Se cierra la conexión a la DDBB

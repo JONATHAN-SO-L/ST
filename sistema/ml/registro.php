@@ -21,6 +21,9 @@
 
       // Se insertan los datos en la DDBB
     $conexion->query("INSERT INTO $table2 (libro1, libro2, libro3, libro4, libro5, libro6, libro7, libro8, libro9, libro10, libro11, libro12) VALUES ('$book1', '$book2', '$book3', '$book4', '$book5', '$book6', '$book7', '$book8', '$book9', '$book10', '$book11', '$book12')");
+
+    echo "<script>alert('META DE LIBROS GUARDADA CORRECTAMENTE')</script>";
+
   }
 
     include "../../funciones/close.php";  // Se cierra la conexión con la DDBB

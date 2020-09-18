@@ -16,6 +16,9 @@
 
 	  // Se hace la inserción de la información a la DDBB
 	  $conexion -> query ("INSERT INTO $table1 (hora, am_pm, dia, titulo1, titulo2, titulo3, titulo4) VALUES ('$hour', '$horary', '$day', '$title1', '$title2', '$title3', '$title4')");
+
+    echo "<script>alert('ESTUDIO PERSONAL GUARDADO CORRECTAMENTE')</script>";
+
 	}
 
 	  include "../../funciones/close.php";	// Se cierra la conexión a la DDBB
