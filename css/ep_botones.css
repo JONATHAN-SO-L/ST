@@ -95,8 +95,8 @@ select {
 }
 
 #dash_ep {
-  height: auto;  /* Altura de la tabla */
-  width: auto;;  /* Ancho de la tabla */
+  height: 100%;  /* Altura de la tabla */
+  min-width: 100%;  /* Ancho de la tabla */
 }
 
 /* Diseño del pie de página */

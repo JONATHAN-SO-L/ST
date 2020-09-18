@@ -15,7 +15,7 @@
       $title4 = $_POST['titulo4'];
 
       // Se insertan los nuevos datos en la base de datos
-      $conexion->query("UPDATE estudio_personal SET hora='$hour', am_pm='$horary', dia='$day', titulo1='$title1', titulo2='$title2', titulo3='$title3', titulo4='$title4'");
+      $conexion->query("UPDATE $table1 SET hora='$hour', am_pm='$horary', dia='$day', titulo1='$title1', titulo2='$title2', titulo3='$title3', titulo4='$title4'");
 
       }
 

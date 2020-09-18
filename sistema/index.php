@@ -54,6 +54,47 @@
 </div>
 <br>
 
+<div class="container contenedor-modal" align="center">
+	<span name="flotante" id="flotante" class="flotante" data-toggle="modal" data-target="#miModal" ><img class="qns2" src="/st/img/qns2.png" alt="Q&S"></span>
+</div>
+
+<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-contenido modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+        <br>
+        <div class="container">
+
+          <div class="container">
+            <form class="form-inline"><img id="qns" src="/st/img/qns2.png" style="margin-top: 5px" ><h2 class="form-title" style="margin: 10px">Quejas & Sugerencias</h2></form>
+
+            <form method="POST" action="/st/funciones/q&s.php">
+              <div>
+                <br>
+                <div class="form-group">
+                  <label><strong>NOMBRE :</strong></label>
+                  <input required="#" type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre aquí">
+                </div>
+
+                <div class="form-group">
+                  <label><strong>MENSAJE :</strong></label>
+                  <textarea required="#" class="form-control" rows="3" id="mensaje" name="mensaje" placeholder="Redacta tu mensaje aquí"></textarea>
+                </div>
+
+                <div class="form-group" align="center">
+                  <input type="submit" class="btn qns1" id="enviar" name="qns" value="Enviar Mensaje">
+                </div><br>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Pie de página -->
 <footer class="pie1">
 	<!-- Imágenes redireccionables -->

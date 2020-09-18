@@ -7,6 +7,7 @@
 
 	$table1="estudio_personal";	//Tabla de la base de datos
 	$table2="meta_libros";	//Tabla de la base de datos
+	$table3="adoracion_familia";	//Tabla de la base de datos
 
 	$conexion = new mysqli ($host, $user, $pass, $database);	//Conexion sencilla a la base de datos MariaDB mediante mysqli
 

@@ -57,6 +57,42 @@ a:hover {
     margin-right: 10px;
 }
 
+/* Botón de Q&S flotante */
+.flotante {
+    display:scroll;
+    padding:15px;
+    background:none;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom: 120px;
+    right: 0;
+}
+
+.qns2 {
+    height: 50px;
+    width: 50px;
+}
+
+#qns {
+    border: 2px;
+    padding: 10px;
+    background-clip: padding-box;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.qns1 {
+    background-color: #E14E00;
+    color: white;
+}
+
+.qns1:hover {
+    color: white;
+}
+
 /* Diseño del pie de página */
 .pie1 {
     background-color: #3E2A75;  /* Color del fondo */
