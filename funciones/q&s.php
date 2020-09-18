@@ -7,7 +7,7 @@ if (isset($_POST['qns'])){
 	$name = $_POST['nombre'];
 	$msj = $_POST['mensaje'];
 
-	$conexion -> query ("INSERT INTO q_n_s (nombre, q_or_S) VALUES ('$name', '$msj')");
+	$conexion -> query ("INSERT INTO q_n_s (nombre, q_or_s) VALUES ('$name', '$msj')");
 
 	echo "<script>alert('MENSAJE ENVIADO EXITOSAMENTE')</script>";
 
