@@ -120,7 +120,7 @@
 
       echo '<div class="container contenedor-modal" align="center">
       <div class="container contenedor-modal" align="center">
-      <button name="ingresar" style="margin: 10px" type="sumbit" class="btn btn-success btn-lg" data-toggle="modal" data-target="#miModal">INIICIAR PLAN DE ESTUDIO</button>
+      <button name="ingresar" style="margin: 10px" type="sumbit" class="btn btn-success btn-lg" data-toggle="modal" data-target="#miModal">INICIAR PLAN DE ESTUDIO</button>
       </div>
       ';
     }    

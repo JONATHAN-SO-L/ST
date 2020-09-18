@@ -80,7 +80,7 @@
           <td><center>".$consulta1 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta1 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -122,7 +122,7 @@
           <td><center>".$consulta2 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta2 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -164,7 +164,7 @@
           <td><center>".$consulta3 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta3 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -207,7 +207,7 @@
           <td><center>".$consulta4 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta4 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -250,7 +250,7 @@
           <td><center>".$consulta5 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta5 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -293,7 +293,7 @@
           <td><center>".$consulta6 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta6 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -336,7 +336,7 @@
           <td><center>".$consulta7 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta7 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -379,7 +379,7 @@
           <td><center>".$consulta8 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta8 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -422,7 +422,7 @@
           <td><center>".$consulta9 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta9 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -465,7 +465,7 @@
           <td><center>".$consulta10 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta10 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -508,7 +508,7 @@
           <td><center>".$consulta11 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta11 ['cursos']."</center></td>
         </tr>
         <tr>
@@ -551,7 +551,7 @@
           <td><center>".$consulta12 ['revisitas']."</center></td>
         </tr>
         <tr>
-          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos</td>
+          <td>Número de <i> diferentes </i> <br> cursos bíblicos dirigidos: </td>
           <td><center>".$consulta12 ['cursos']."</center></td>
         </tr>
         <tr>

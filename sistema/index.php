@@ -51,7 +51,7 @@
 <!-- Sección 2 -->
 	<div class="container" align="center">
 		<a class="boton" href="/st/sistema/im"><button style="margin: 10px" type="sumbit" class="btn btn-primary active btn-lg"><img id="im" src="/st/img/im.png">INFORME MENSUAL</button></a>
-    <a class="boton" href="/st/sistema/aef"><button style="margin: 10px" type="sumbit" class="btn btn-primary active btn-lg"><img id="im" src="/st/img/ep.png">ADORACIÓN EN FAMILIA</button></a>
+    <a class="boton" href="/st/sistema/aef"><button style="margin: 10px" type="sumbit" class="btn btn-primary active btn-lg"><img id="im" src="/st/img/aef1.jpg">ADORACIÓN EN FAMILIA</button></a>
 	</div>
 </div>
 <br>
