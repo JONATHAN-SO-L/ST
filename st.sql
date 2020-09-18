@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 08-09-2020 a las 19:41:25
+-- Tiempo de generación: 19-09-2020 a las 00:55:46
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.9
 
@@ -28,6 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `abril` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -39,10 +40,27 @@ CREATE TABLE `abril` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `adoracion_familia`
+--
+
+CREATE TABLE `adoracion_familia` (
+  `hora` varchar(10) NOT NULL,
+  `am_pm` varchar(10) NOT NULL,
+  `dia` varchar(10) NOT NULL,
+  `titulo1` varchar(100) NOT NULL,
+  `titulo2` varchar(100) NOT NULL,
+  `titulo3` varchar(100) NOT NULL,
+  `titulo4` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `agosto`
 --
 
 CREATE TABLE `agosto` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -58,6 +76,7 @@ CREATE TABLE `agosto` (
 --
 
 CREATE TABLE `diciembre` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -73,6 +92,7 @@ CREATE TABLE `diciembre` (
 --
 
 CREATE TABLE `enero` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -104,6 +124,7 @@ CREATE TABLE `estudio_personal` (
 --
 
 CREATE TABLE `febrero` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -119,6 +140,7 @@ CREATE TABLE `febrero` (
 --
 
 CREATE TABLE `julio` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -134,6 +156,7 @@ CREATE TABLE `julio` (
 --
 
 CREATE TABLE `junio` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -149,6 +172,7 @@ CREATE TABLE `junio` (
 --
 
 CREATE TABLE `marzo` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -164,6 +188,7 @@ CREATE TABLE `marzo` (
 --
 
 CREATE TABLE `mayo` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -200,6 +225,7 @@ CREATE TABLE `meta_libros` (
 --
 
 CREATE TABLE `noviembre` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -215,6 +241,7 @@ CREATE TABLE `noviembre` (
 --
 
 CREATE TABLE `octubre` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -226,10 +253,23 @@ CREATE TABLE `octubre` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `q_n_s`
+--
+
+CREATE TABLE `q_n_s` (
+  `id_qns` int(11) NOT NULL,
+  `nombre` varchar(200) NOT NULL,
+  `q_or_s` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `septiembre`
 --
 
 CREATE TABLE `septiembre` (
+  `id_mes` int(11) NOT NULL,
   `publicaciones` int(11) NOT NULL,
   `videos` int(11) NOT NULL,
   `horas` int(11) NOT NULL,
@@ -237,6 +277,170 @@ CREATE TABLE `septiembre` (
   `cursos` int(11) NOT NULL,
   `comentarios` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `abril`
+--
+ALTER TABLE `abril`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `agosto`
+--
+ALTER TABLE `agosto`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `diciembre`
+--
+ALTER TABLE `diciembre`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `enero`
+--
+ALTER TABLE `enero`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `febrero`
+--
+ALTER TABLE `febrero`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `julio`
+--
+ALTER TABLE `julio`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `junio`
+--
+ALTER TABLE `junio`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `marzo`
+--
+ALTER TABLE `marzo`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `mayo`
+--
+ALTER TABLE `mayo`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `noviembre`
+--
+ALTER TABLE `noviembre`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `octubre`
+--
+ALTER TABLE `octubre`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- Indices de la tabla `q_n_s`
+--
+ALTER TABLE `q_n_s`
+  ADD PRIMARY KEY (`id_qns`);
+
+--
+-- Indices de la tabla `septiembre`
+--
+ALTER TABLE `septiembre`
+  ADD PRIMARY KEY (`id_mes`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `abril`
+--
+ALTER TABLE `abril`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `agosto`
+--
+ALTER TABLE `agosto`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `diciembre`
+--
+ALTER TABLE `diciembre`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `enero`
+--
+ALTER TABLE `enero`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `febrero`
+--
+ALTER TABLE `febrero`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `julio`
+--
+ALTER TABLE `julio`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `junio`
+--
+ALTER TABLE `junio`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `marzo`
+--
+ALTER TABLE `marzo`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `mayo`
+--
+ALTER TABLE `mayo`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `noviembre`
+--
+ALTER TABLE `noviembre`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `octubre`
+--
+ALTER TABLE `octubre`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `q_n_s`
+--
+ALTER TABLE `q_n_s`
+  MODIFY `id_qns` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `septiembre`
+--
+ALTER TABLE `septiembre`
+  MODIFY `id_mes` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
