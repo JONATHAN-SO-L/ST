@@ -57,6 +57,12 @@ a:hover {
     margin-right: 10px;
 }
 
+#aef {
+    height: 40px;  
+    width: 40px;
+    margin-right: 10px;
+}
+
 /* Botón de Q&S flotante */
 .flotante {
     display:scroll;

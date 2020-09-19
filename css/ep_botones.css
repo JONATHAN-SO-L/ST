@@ -84,6 +84,16 @@ select {
   margin-right: 10px; /* Margen derecho */
 }
 
+#aef-index {
+  border: 2px; /* Borde del contenido */
+  padding: 10px; /* Espacio entre contenidos */
+  background: #740836; /* Fondo */
+  background-clip: padding-box; /* Fondo autoajustable */
+  height: 100px;  /* Alto del fondo */
+  width: 100px; /* Ancho del fondo */
+  margin-right: 10px; /* Margen derecho */
+}
+
 /* Diseño de la alerta de la modal "REINICIAR" */
 #alerta {
   border: 2px;  /* Borde del contenido */

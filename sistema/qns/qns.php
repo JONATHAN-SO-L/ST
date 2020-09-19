@@ -33,12 +33,12 @@
 
     <!-- Barra superior -->
     <form class="form-inline float-lg-right" id="volver"> <!-- Alineación a la derecha -->
-      <a style="margin: 15px;" href="/st/sistema/" class="btn btn-danger btn-sm">VOLVER</a> <!-- Enlace de clase botón -->
+      <a href="/st/sistema/" class="btn btn-danger btn-sm">VOLVER</a> <!-- Enlace de clase botón -->
     </form> <!-- Botón de salida o vuelta -->
   </nav>
 
   <form class="form-inline float-lg-right" method="POST" action="buscar.php">
-    <input class="form-control mr-sm-2" type="text" required="#" id="busqueda" name="busqueda" placeholder="Ingresa tu búsqueda aquí">
+    <input class="form-control mr-sm-2" type="search" required="#" id="busqueda" name="busqueda" placeholder="Ingresa tu búsqueda aquí">
     <input class="btn btn-success" id="buscar" name="buscar" type="submit" value="Buscar">
   </form>
 

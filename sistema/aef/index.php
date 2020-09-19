@@ -144,7 +144,7 @@
 
               <!-- Formulario del inicio del estudio personal -->
               <form class="form-inline">
-                <img id="ep-index" src="/st/img/aef1.jpg" style="margin-top: 10px" ><h2 class="form-title" style="margin: 10px">FORMULARIO DE INICIO DE ADORACIÓN EN FAMILIA</h2>
+                <img id="aef-index" src="/st/img/aef.png" style="margin-top: 10px" ><h2 class="form-title" style="margin: 10px">FORMULARIO DE INICIO DE ADORACIÓN EN FAMILIA</h2>
               </form>
             </div>
 
@@ -242,7 +242,7 @@
 
           <div class="container">
             <form class="form-inline">
-              <img id="ep-index" src="/st/img/aef1.jpg" style="margin-top: 10px" ><h2 class="form-title" style="margin: 10px">FORMULARIO DE MODIFICACIÓN DE ADORACIÓN EN FAMILIA</h2>
+              <img id="ep-index" src="/st/img/aef.png" style="margin-top: 10px" ><h2 class="form-title" style="margin: 10px">FORMULARIO DE MODIFICACIÓN DE ADORACIÓN EN FAMILIA</h2>
             </form>
           </div>
 
