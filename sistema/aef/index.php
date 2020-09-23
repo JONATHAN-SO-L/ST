@@ -57,7 +57,7 @@
 // Mensaje que confirma la existencia de información de registros en la DDBB
       echo '
       <div class="alert alert-success">
-      <strong><center>Ya tienes un programa de estudio hecho, observalo aquí abajo
+      <strong><center>Ya tienes un programa de adoración hecho, observalo aquí abajo
       <button type="button" class="close" data-dismiss="alert">&times;</center>
       </div></strong>';
 
@@ -113,14 +113,14 @@
       echo '
       <div class="container">
       <div class="alert alert-danger alert-dismissible">
-      <strong><center>Al parecer aún no tienes un programa de estudio, hazlo ahora mismo en "INICIAR PLAN DE ESTUDIO"</center>
+      <strong><center>Al parecer aún no tienes un programa de adoración, hazlo ahora mismo en "INICIAR PLAN DE ADORACIÓN"</center>
       <button type="button" class="close" data-dismiss="alert">&times;
       </div></strong>
       </div>';
 
       echo '<div class="container contenedor-modal" align="center">
       <div class="container contenedor-modal" align="center">
-      <button name="ingresar" style="margin: 10px" type="sumbit" class="btn btn-success btn-lg" data-toggle="modal" data-target="#miModal">INICIAR PLAN DE ESTUDIO</button>
+      <button name="ingresar" style="margin: 10px" type="sumbit" class="btn btn-success btn-lg" data-toggle="modal" data-target="#miModal">INICIAR PLAN DE ADORACIÓN</button>
       </div>
       ';
     }    
