@@ -37,14 +37,6 @@
 </nav>
 <br>
 
-<div class="container">
-
-<!-- Botón de descarga en PDF -->
-      <div class="container" align="center">
-        <a class="boton" href="/st/sistema/im/descarga.php"><button style="margin: 10px" type="sumbit" class="btn btn-danger btn-md"><img id="mes" src="/st/img/descarga_pdf.png">DESCARGAR GRÁFICA EN PDF</button></a>
-      </div>
-</div>
-
 <br>
 
 <footer class="pie3">

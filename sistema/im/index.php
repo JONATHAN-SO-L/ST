@@ -80,7 +80,7 @@
     <a class="boton" href="/st/sistema/im/actividad.php"><button style="margin: 10px" type="sumbit" class="btn btn-primary btn-lg"><img id="actividad" src="/st/img/ml.png">VER MI ACTIVIDAD EN MI AÑO DE SERVICIO</button></a>
 
 <!-- Botón para ver la "GRÁFICA" de comparación de meses -->
-    <a class="boton" href="/st/sistema/im/grafica_ano.php"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="grafica" src="/st/img/grafica.png">VER GRÁFICA DE MI AÑO DE SERVICIO</button></a>
+    <a class="boton" href="/st/sistema/im/grafica_ano.php"><button style="margin: 10px; cursor: not-allowed;" type="sumbit" class="btn btn-success btn-lg" disabled><img id="grafica" src="/st/img/grafica.png">VER GRÁFICA DE MI AÑO DE SERVICIO</button></a>
   </div>
 
 <!-- Botón accionador de la modal "REINICIAR" -->
